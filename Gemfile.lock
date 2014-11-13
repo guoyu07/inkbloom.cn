@@ -49,9 +49,6 @@ GEM
     colorize (0.7.3)
     diff-lcs (1.2.5)
     erubis (2.7.0)
-    exception_notification (4.0.1)
-      actionmailer (>= 3.0.4)
-      activesupport (>= 3.0.4)
     execjs (2.2.2)
     factory_girl (4.4.0)
       activesupport (>= 3.0.0)
@@ -82,7 +79,6 @@ GEM
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
-    newrelic_rpm (3.9.6.257)
     polyglot (0.3.5)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -169,7 +165,6 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano-rails
-  exception_notification (= 4.0.1)
   factory_girl (= 4.4.0)
   factory_girl_rails (= 4.4.1)
   jquery-rails
@@ -177,7 +172,6 @@ DEPENDENCIES
   kaminari-bootstrap (= 3.0.1)
   minitest (= 5.3.5)
   mysql2 (= 0.3.16)
-  newrelic_rpm (= 3.9.6.257)
   rails (= 4.1.2)
   rspec-rails (= 3.0.1)
   sass-rails (~> 4.0.3)
