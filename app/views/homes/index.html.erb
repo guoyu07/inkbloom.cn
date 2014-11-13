@@ -19,8 +19,8 @@
                <div class="navbar-header"><a class="navbar-brand" href="index.html"> <img src="/assets/logo.png" alt="optional logo" height="90" width="90"> <span class="logo_title"></a></div>
                <div class="collapse navbar-collapse">
                     <ul class="nav pull-right navbar-nav">
-                         <li class="active"><a href="#">ENG</a></li>
-                         <li><a href="#">中文</a></li>
+                         <li class="<%= active_css('en', @locale) %>"><a href="/?locale=en">ENG</a></li>
+                         <li class="<%= active_css('zh-CN', @locale) %>"><a href="/?locale=zh-CN">中文</a></li>
                     </ul>
                </div>
           </div>
@@ -93,25 +93,25 @@
                   <div class="row">
                        <div class="col-md-1"></div>
                        <div class="footer_teaser col-sm-2 col-md-2">
-                            <h3>Home</h3>
+                            <h3><%= t("homes.name") %></h3>
                        </div>
                        <div class="footer_teaser col-sm-2 col-md-2">
-                            <h3>About</h3>
-                            <p><a href="#">Inkbloom</a></p>
-                            <p><a href="#">Join use</a></p>
+                            <h3><%= t("aboutus.name") %></h3>
+                            <p><a href="#"><%= t("aboutus.lnkbloom") %></a></p>
+                            <p><a href="#"><%= t("aboutus.joinus") %></a></p>
                        </div>
                        <div class="footer_teaser col-sm-2 col-md-2">
-                            <h3>Services</h3>
-                            <p><a href="#">Creative Work</a></p>
-                            <p><a href="#">Snapshot</a></p>
+                            <h3><%= t("services.name") %></h3>
+                            <p><a href="#"><%= t("services.creative_work") %></a></p>
+                            <p><a href="#"><%= t("services.snapshot") %></a></p>
                        </div>
                        <div class="footer_teaser col-sm-2 col-md-2">
-                            <h3>Client</h3>
-                            <p><a href="#">Testimonials</a></p>
-                            <p><a href="#">Client list</a></p>
+                            <h3><%= t("clients.name") %></h3>
+                            <p><a href="#"><%= t("clients.testimonials") %></a></p>
+                            <p><a href="#"><%= t("clients.client_list") %></a></p>
                        </div>
                        <div class="footer_teaser col-sm-2 col-md-2">
-                            <h3>Contact</h3>
+                            <h3><%= t("contactus.name") %></h3>
                        </div>
                        <div class="col-md-1"></div>
                   </div>

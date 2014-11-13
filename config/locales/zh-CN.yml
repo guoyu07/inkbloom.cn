@@ -1,0 +1,26 @@
+zh-CN:
+  homes:
+    name: "首页"
+  aboutus:
+    name: "关于我们"
+    joinus: "加入我们"
+    testimonials: "客户评价"
+    ideas: "观点"
+    lnkbloom: "如墨文化"
+  services:
+    name: "服务范围"
+    event: "活动管理"
+    gift: "礼品定制"
+    print: "印刷制作"
+    creative_work: "创意设计"
+    snapshot: "快照"
+  clients:
+    name: "客户"
+    client_list: "客户"
+    process: "服务流程"
+    testimonials: "客户评价"
+    creative_work: "创意设计"
+  portfolios:
+    name: "案例作品"
+  contactus:
+    name: "联系我们"
