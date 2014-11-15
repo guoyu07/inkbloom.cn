@@ -6026,29 +6026,7 @@ header .container {
   text-shadow: 1px 1px 0 #FFFFFF;
   padding: 0 4px 4px 4px;
 }
-.in ul.nav {
-  width: 100%;
-  margin: 0;
-  background: #ffffff;
-}
-.in ul.nav li {
-  text-align: center;
-}
-.in ul.nav li a {
-  margin: 0 0 6px 0px;
-}
-.in ul.nav li a:hover,
-.in ul.nav li a:active {
-  color: #428bca;
-  text-shadow: 0px 0px 0 transparent;
-  border-bottom: solid 0px #428bca;
-}
-.in ul.nav li.active a,
-.in ul.nav li.active a:hover {
-  color: #fff;
-  text-shadow: 0px 0px 0 transparent;
-  border-bottom: solid 0px #428bca;
-}
+
 #social_media_wrapper {
   background: #428bca;
   border-bottom-right-radius: 4px;
